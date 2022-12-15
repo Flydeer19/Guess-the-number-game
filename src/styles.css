@@ -116,10 +116,7 @@ footer .author a:hover {
   html {
     font-size: 8px;
   }
-}
-
-@media (max-width: 391px) {
-  html {
-    font-size: 6px;
+  .main-content .input-field {
+    width: 10rem;
   }
 }
