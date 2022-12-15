@@ -1,0 +1,86 @@
+:root {
+  --heading-font: "Rubik Vinyl", cursive;
+  --secret-number-color: #ffbd67;
+  --button-color: #5be7a9;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #f8fe85;
+}
+
+header {
+  margin: 40px 40px 20px 60px;
+}
+
+header h2 {
+  font-size: 30px;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  text-align: center;
+  font-size: 5.62rem;
+  text-shadow: 0.313rem 0.313rem 0.125rem var(--secret-number-color);
+}
+
+header .restart-button {
+  background-color: var(--button-color);
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  transition: all 150ms ease-in-out;
+}
+
+header .restart-button:hover {
+  background-color: #5eb38b;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+header h2 .arrow {
+  font-size: 25px;
+  color: #5eb38b;
+}
+
+.main-content .secret-number {
+  background-color: var(--secret-number-color);
+  width: 12.5rem;
+  margin: 1.25rem auto;
+  font-family: var(--heading-font);
+  text-align: center;
+  font-size: 4.38rem;
+  border-radius: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0rem 0.313rem 0.938rem 0rem;
+}
+
+.main-content .container {
+  margin-top: 60px;
+}
+
+.main-content .input-field {
+  width: 130px;
+  font-size: 90px;
+  line-height: 90px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  background-color: var(--secret-number-color);
+  opacity: 0.6;
+  border-radius: 20px;
+  border-color: #f29318;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 8px;
+  }
+}

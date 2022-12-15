@@ -24,19 +24,21 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
-    <header>
-      <button class="btn btn-success restart-button" id="restart-button">
-        Restart
+    <header class="d-flex justify-content-between align-items-center">
+      <button class="btn restart-button" id="restart-button">
+        <i class="fa-solid fa-rotate-left"></i> Restart
       </button>
-      <h4>Between 1 and 20</h4>
+      <h2>
+        <i class="fa-solid fa-truck-arrow-right arrow"></i> Between 1 and 20
+      </h2>
     </header>
     <div class="main-content">
-      <div class="game-name">Guess the number</div>
+      <h1 class="game-name">Guess the number</h1>
       <div class="secret-number">?</div>
       <div class="container">
         <div class="row">
           <div class="col-7">
-            <input type="number" />
+            <input type="number" class="input-field" id="input-field" />
             <button class="btn btn-primary check-button" id="check-button">
               Check
             </button>
