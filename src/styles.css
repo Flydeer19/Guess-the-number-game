@@ -116,7 +116,19 @@ footer .author a:hover {
   html {
     font-size: 8px;
   }
+
+  h1 {
+    margin-top: 7.25rem;
+  }
   .main-content .input-field {
-    width: 10rem;
+    width: 15.375rem;
+  }
+
+  .main-content .check-button {
+    padding: 1.25rem 3.75rem;
+  }
+
+  .main-content .paragraph-info {
+    padding-top: 2.125rem;
   }
 }
