@@ -39,14 +39,20 @@
         <div class="row">
           <div class="col-7">
             <input type="number" class="input-field" id="input-field" />
-            <button class="btn btn-primary check-button" id="check-button">
-              Check
+            <button class="btn check-button" id="check-button">
+              <i class="fa-solid fa-paw"></i> Check
             </button>
           </div>
-          <div class="col-5">
-            <p class="message" id="message">Start guessing</p>
-            <p>Score: <span class="score" id="score">20</span></p>
+          <div class="col-5 paragraph-info">
+            <p class="message" id="message">
+              <i class="fa-solid fa-lightbulb"></i> Start guessing...
+            </p>
             <p>
+              <i class="fa-solid fa-eye"></i> Score:
+              <span class="score" id="score">20</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-star"></i>
               Your best result:
               <span class="best-score" id="best-score">0</span>
             </p>

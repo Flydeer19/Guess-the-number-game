@@ -7,6 +7,7 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   background: #f8fe85;
+  min-height: 100%;
 }
 
 header {
@@ -24,15 +25,19 @@ h1 {
   text-shadow: 0.313rem 0.313rem 0.125rem var(--secret-number-color);
 }
 
-header .restart-button {
+header .restart-button,
+.main-content .check-button {
   background-color: var(--button-color);
   font-size: 30px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
   transition: all 150ms ease-in-out;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
-header .restart-button:hover {
+header .restart-button:hover,
+.main-content .check-button:hover {
   background-color: #5eb38b;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
@@ -58,10 +63,12 @@ header h2 .arrow {
 }
 
 .main-content .container {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .main-content .input-field {
+  display: block;
+  margin: 0 auto;
   width: 130px;
   font-size: 90px;
   line-height: 90px;
@@ -74,8 +81,18 @@ header h2 .arrow {
   border-color: #f29318;
 }
 
+.main-content .check-button {
+  display: block;
+  margin: 15px auto;
+}
+
+.main-content .paragraph-info {
+  font-size: 28px;
+  padding-top: 15px;
+}
+
 footer {
-  margin-top: 30px;
+  margin-top: 90px;
   text-align: center;
 }
 
