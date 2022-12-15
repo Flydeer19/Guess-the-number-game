@@ -11,11 +11,11 @@ body {
 }
 
 header {
-  margin: 40px 40px 20px 60px;
+  margin: 2.5rem 2.5rem 1.25rem 3.75rem;
 }
 
 header h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 h1 {
@@ -28,26 +28,28 @@ h1 {
 header .restart-button,
 .main-content .check-button {
   background-color: var(--button-color);
-  font-size: 30px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  font-size: 1.875rem;
+  border-radius: 0.625rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.063rem 0.125rem 0rem;
   transition: all 150ms ease-in-out;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0rem 0.25rem 0.5rem -0.125rem,
+    rgba(9, 30, 66, 0.08) 0rem 0rem 0rem 0.063rem;
 }
 
 header .restart-button:hover,
 .main-content .check-button:hover {
   background-color: #5eb38b;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0rem -1.438rem 1.563rem 0rem inset,
+    rgba(0, 0, 0, 0.15) 0rem -2.25rem 1.875rem 0rem inset,
+    rgba(0, 0, 0, 0.1) 0rem -4.938rem 2.5rem 0rem inset,
+    rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.063rem,
+    rgba(0, 0, 0, 0.09) 0rem 0.25rem 0.125rem,
+    rgba(0, 0, 0, 0.09) 0rem 0.5rem 0.25rem,
+    rgba(0, 0, 0, 0.09) 0rem 1rem 0.5rem, rgba(0, 0, 0, 0.09) 0rem 2rem 1rem;
 }
 
 header h2 .arrow {
-  font-size: 25px;
+  font-size: 1.563rem;
   color: #5eb38b;
 }
 
@@ -63,40 +65,46 @@ header h2 .arrow {
 }
 
 .main-content .container {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .main-content .input-field {
   display: block;
   margin: 0 auto;
-  width: 130px;
-  font-size: 90px;
-  line-height: 90px;
+  width: 8.125rem;
+  font-size: 5.625rem;
+  line-height: 5.625rem;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: 700;
   background-color: var(--secret-number-color);
   opacity: 0.6;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   border-color: #f29318;
 }
 
 .main-content .check-button {
   display: block;
-  margin: 15px auto;
+  margin: 0.938rem auto;
 }
 
 .main-content .paragraph-info {
-  font-size: 28px;
-  padding-top: 15px;
+  font-size: 1.75rem;
+  padding-top: 0.938rem;
 }
 
 footer {
-  margin-top: 90px;
+  margin-top: 5.625rem;
   text-align: center;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) and (min-width: 412px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 412px) {
   html {
     font-size: 8px;
   }
