@@ -71,7 +71,7 @@ header h2 .arrow {
 .main-content .input-field {
   display: block;
   margin: 0 auto;
-  width: 8.125rem;
+  width: 11.125rem;
   font-size: 5.625rem;
   line-height: 5.625rem;
   text-align: center;
@@ -86,6 +86,7 @@ header h2 .arrow {
 .main-content .check-button {
   display: block;
   margin: 0.938rem auto;
+  width: 11.125rem;
 }
 
 .main-content .paragraph-info {
@@ -112,20 +113,13 @@ footer .author a:hover {
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 565px) {
   html {
     font-size: 8px;
   }
 
   h1 {
     margin-top: 7.25rem;
-  }
-  .main-content .input-field {
-    width: 15.375rem;
-  }
-
-  .main-content .check-button {
-    padding: 1.25rem 3.75rem;
   }
 
   .main-content .paragraph-info {
